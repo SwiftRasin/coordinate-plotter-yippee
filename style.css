@@ -17,5 +17,6 @@ input,button {
 
     background-color : rgb(66, 65, 65); 
     border-color: rgb(17, 17, 17);
+    border: none;
 }
   
