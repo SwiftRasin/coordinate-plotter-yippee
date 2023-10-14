@@ -1,5 +1,7 @@
 var points = [];
 
+var coolNumber = 0;
+
 const canvas = document.getElementById("graph");
 const ctx = canvas.getContext("2d");
 
