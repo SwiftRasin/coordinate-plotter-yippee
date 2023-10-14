@@ -1,0 +1,21 @@
+#title {
+    font-family: sans-serif
+}
+#plotter {
+    font-family: courier
+}
+#credit {
+    font-family: sans-serif; 
+    font-style: italic;
+}
+html {
+    background-color: rgb(32, 32, 32);
+    color: slateblue;
+    flood-color: slateblue;
+}
+input,button {
+
+    background-color : rgb(66, 65, 65); 
+    border-color: rgb(17, 17, 17);
+}
+  

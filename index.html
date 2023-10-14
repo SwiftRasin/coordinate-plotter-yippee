@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="title">
+    <h1>Coordinate Plotter v2!</h1>
+    <div id="credit">By SwiftRasin</div>
+  </body>
+  <body id="plotter">
+    <canvas id="graph" width="400" height="400" style="border:5px solid slateblue; border-radius: 8px"></canvas>
+    <h1 id="points">points: </h1>
+    <button id="add" onclick="addPoint(makePoint(xInput.value,yInput.value,lineCheck.checked))">add</button>
+    <button id="sub" onclick="subPoint()">sub</button>
+    <div></div>
+    <label for="xInput">x: </label>
+    <input type="text" value="5" id="xInput"></input>
+    <div></div>
+    <label for="yInput">y: </label>
+    <input type="text" value="5" id="yInput"></input>
+    <div></div>
+    <input type="checkbox" value="true" id="lineCheck"></input>
+    <label for="lineCheck">isLine? </label>
+    <script src="graph.js"></script>
+  </body>
+</html>
