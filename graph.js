@@ -7,6 +7,16 @@ const ctx = canvas.getContext("2d");
 
 //ctx.fillRect(200,200,5,5); 
 
+function coolFunc()
+{
+    const para = document.createElement("p");
+    const node = document.createTextNode("This is new.");
+    para.appendChild(node);
+
+    const element = document.getElementById("div1");
+    element.appendChild(para);
+}
+
 function addPoint(point)
 {
     points.push(point);
